@@ -21,3 +21,7 @@ var romanToInt = function (s) {
       
   }
 };
+
+let res = romanToInt("IIII");
+
+console.log(res);
