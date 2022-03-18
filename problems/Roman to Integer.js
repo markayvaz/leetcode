@@ -15,6 +15,8 @@ var romanToInt = function (s) {
     M: 1000,
   };
 
+  const map = new Map();
+
   for (let i = 0; i < symbolCount; i++) {
       
   }
