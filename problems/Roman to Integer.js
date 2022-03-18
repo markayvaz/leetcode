@@ -4,6 +4,7 @@
  */
 var romanToInt = function (s) {
   const symbolCount = s.length;
+  let res = 0;
 
   let symbols = {
     I: 1,
@@ -18,7 +19,7 @@ var romanToInt = function (s) {
   const map = new Map();
 
   for (let i = 0; i < symbolCount; i++) {
-      
+        char = s.charAt(i);
   }
 };
 
