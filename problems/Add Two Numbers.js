@@ -1,14 +1,16 @@
-let twoSum = (nums, target) => {
-  const seen = new Map();
-  for (let i = 0; i < nums.length; i++) {
-    const required = target - nums[i];
-    if (seen.has(required)) {
-      return [seen.get(required), i];
-    }
-    seen.set(nums[i], i);
-  }
+//  Definition for singly-linked list.
+function ListNode(val, next) {
+  this.val = val === undefined ? 0 : val;
+  this.next = next === undefined ? null : next;
+}
+
+/**
+ * @param {ListNode} l1
+ * @param {ListNode} l2
+ * @return {ListNode}
+ */
+var addTwoNumbers = function (l1, l2) {
+  
 };
 
-let res = twoSum([1, 2, 9, 4], 6);
-
-console.log(res);
+console.log(addTwoNumbers([9, 9, 9, 9, 9, 9, 9], [9, 9, 9, 9]));
